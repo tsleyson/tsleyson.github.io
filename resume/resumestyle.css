@@ -4,5 +4,14 @@ p {
 }
 
 li {
-    margin-right: 5em;
+    margin-right: 3em;
+}
+
+div.textbody {
+    margin-left: 10em;
+}
+
+body {
+   /* text-align: center; */
+    background-color: #fff0c4;
 }
