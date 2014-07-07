@@ -1,3 +1,6 @@
+#text-1 {
+    text-align: center;
+}
 p {
     margin-top: 0px;
     margin-bottom: 0px;
@@ -9,9 +12,11 @@ li {
 
 div.textbody {
     margin-left: 10em;
+    margin-right: 10em;
+    padding-top: 1em;
 }
 
 body {
    /* text-align: center; */
-    background-color: #fff0c4;
+    background-color: #e4edf4; /* tan #fff0c4; */
 }

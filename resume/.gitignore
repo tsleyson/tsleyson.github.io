@@ -1,0 +1,8 @@
+*.el
+resume.pdf
+resume.tex
+*.aux
+*.out
+*.log
+*.toc
+

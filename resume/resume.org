@@ -2,8 +2,9 @@
 12266 Regent Way 
 PO Box 1033 
 Oregon House, CA 95962
+(530) 692-9040
 *trisdan.leyson@gmail.com*
-*(530) 692-9040*
+
 * Education
   - *Bachelor of Science, Computer Science. University of California, Davis.*
     - In-progress; expected completion 8/2014.
@@ -11,25 +12,13 @@ Oregon House, CA 95962
   - *Associate of Arts, Arts and Humanities. Yuba College.*
     - Completed 2011.
     - GPA: 3.7
-* Skills
-** Programming Languages
-  - Most experience with Python, Java, C++.
-  - Some experience with Clojure, C, Ruby, Javascript.
-  - Brief exposure to Common Lisp, Prolog, JR.
-** Other technologies
-  - Working knowledge of HTML, CSS.
-  - Working knowledge of Emacs, some Emacs Lisp.
-  - Basic knowledge of Git and GitHub.
-  - Working knowledge of Unix, Linux, and Microsoft Windows.
-** Other
-  - Proficient writer; maintain a technical blog, /The Poetry of Computer
-    Science/ ([[http://porgionesanke.wordpress.com]]).
-  - Some knowledge of the Spanish and Japanese languages.
+
 * Selected Projects
   - *Compiler for the Cool Programming Language*
     - *Tools*: C++, Flex, make, SPIM and MIPS.
     - *Skills*: Regular expressions, object-oriented design, type systems.
   - *Robot arm control system*
+    - Code at http://github.com/tsleyson/JointMove.
     - *Tools*: C++.
     - *Skills*: Low-level programming, object-oriented design.
   - *Sound Change Modeler*
@@ -40,6 +29,7 @@ Oregon House, CA 95962
     - Code at [[https://github.com/tsleyson/kindle_pub_formatter]].
     - *Tools*: Clojure, HTML, Emacs Lisp, JSON.
     - *Skills*: HTML, Cascading Style Sheets, Unicode.
+
 * Employment History
 ** January 2014 - 
   - *Yuba College Writing and Language Development Center.*
@@ -56,24 +46,24 @@ Oregon House, CA 95962
       account-linking features of their Yuba College campus email.
       (Available at [[tsleyson.github.io/WLDC-email-forward/index.html]].)
   - *Reason for leaving*: Time-limited position.
-** June 2011 - August 2013
-  - Full-time student, University of California, Davis.
 ** January 2009 - May 2011
   - *Yuba College Writing and Language Development Center*
   - *Position*: English and ESL Tutor
   - *Duties*: See above.
   - *Reason for leaving*: Left to become full-time student at UC Davis.
-** January 2007 - May 2011
-  - Full-time student, Yuba Community College.
-* References
-** Rosemary McKeever
-  - Relationship: Former supervisor.
-  - Organization: Yuba College Writing and Language Development Center.
-  - Title: Instructional Associate.
-  - Email: rmckeeve@yccd.edu
-** Shawn Frederking
-  - Relationship: Former supervisor.
-  - Organization: Yuba College Writing and Language Development Center,
-    Yuba College English Department.
-  - Title: Associate Professor of English.
-  - Email: sfrederk@yccd.edu
+
+* Skills
+  - Most experience with Python, Java, C++.
+  - Some experience with Clojure, C, Ruby, Javascript.
+  - Working knowledge of HTML, CSS.
+  - Basic knowledge of Git and GitHub.
+  - Proficient writer; maintain a technical blog, /The Poetry of Computer
+    Science/ ([[http://porgionesanke.wordpress.com]]).
+  - Native English speaker; some knowledge of the Spanish and Japanese languages.
+
+* Additional Activities
+  - Linguistics, especially typology.
+  - Mathematics and statistics, especially those used in machine learning and natural 
+    language processing.
+  - Writing stories, articles, and essays.
+  - Reading classical literature, history, philosophy, and popular science.

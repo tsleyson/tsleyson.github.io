@@ -1,0 +1,55 @@
+\documentclass{moderncv}
+\moderncvtheme[blue]{classic}
+
+\firstname{Trisdan}
+\familyname{Leyson}
+\address{2343 Kirkham St}{San Francisco, CA 94122}
+\email{trisdan.leyson@gmail.com}
+%\mobile{(831) 332-4706}
+\phone{(530) 692-9040}
+%\homepage{tsleyson.github.io/resume/resume.html}
+%\extrainfo{porgionesanke.wordpress.com}
+
+\AfterPreamble{\hypersetup{
+    colorlinks=true,
+  urlcolor=blue
+}}
+\usepackage[margin=1.0in]{geometry}
+\begin{document}
+\makecvtitle
+\section{Education}
+\cventry{2014}{Bachelor of Science}{University of California, Davis}{}{}{Computer science; general course, focused on applied theory and discrete mathematics.}
+% arguments 3 to 6 can be left empty
+\cventry{2011}{Associate of Arts}{Yuba College}{Marysville, CA}{}{General education, Arts and Humanities.}
+
+\section{Projects}
+\cvline{C++}{Lexer and semantic analyzer for a compiler for an object-oriented language with a provably sound type system. Semantic analyzer did type checking for the language.}
+
+\cvline{C++}{Robot arm control system. A reimplementation of some older procedural code with an object-oriented interface and better design and code quality. Code at \href{http://github.com/tsleyson/JointMove}{http://github.com/tsleyson/JointMove}.}
+
+\cvline{Python}{Sound change applier for hobby language creation. Code and further details at \href{http://github.com/tsleyson/PySounds2}{http://github.com/tsleyson/PySounds2}.}
+
+\cvline{Clojure}{Document formatter for preparing a collection of HTML documents for publication with Amazon Kindle Direct Publishing. Code and further details at \href{http://github.com/tsleyson/kindle_pub_formatter}{http://github.com/tsleyson/kindle\_pub\_formatter}.}
+
+%\cvline{Javascript}{Competitor for the site \href{http://fruitbots.org}{fruitbots.org}. Uses core Javascript, implements Floyd-Warshall algorithm for all-pairs shortest path. Code at \href{http://github.com/tsleyson/js-fruitbot}{http://github.com/tsleyson/js-fruitbot}.}
+\section{Experience}
+\cventry{2009--2011 and Jan 2014--}{English Tutor}{Writing and Language Development Center}{Yuba College, Marysville, CA}{}{Assisted students, one-on-one or in small groups, with development of language and writing skills, including grammar, punctuation, word-use, rhetoric, and English as a Foreign Language.}
+
+\section{Programming Languages and Other Skills}
+\cvcomputer{Python}{Most experience}{}{}
+\cvcomputer{Java}{Most experience}{}{}
+\cvcomputer{C++}{Most experience}{}{}
+\cvcomputer{Javascript}{Some knowledge}{}{}
+\cvcomputer{Clojure}{Some knowledge}{}{}
+%\cvcomputer{Ruby}{Some knowledge}{}{}
+
+\cvlanguage{English}{Native speaker}{}
+\cvlanguage{Spanish}{Basic fluency}{}
+\cvlanguage{Japanese}{Second-year university level}{}
+\cvline{Writing}{Proficient. Maintain a technical blog, \textit{The Poetry of Computer Science} (\href{http://porgionesanke.wordpress.com}{http://porgionesanke.wordpress.com}).}
+
+\section{Other Activities}
+\cvline{Linguistics}{Longtime hobby}{}{}
+\cvline{Reading}{Classical literature, history, philosophy, popular science}{}{}
+\cvline{Mathematics and statistics}{Recent hobby}{}{}
+\end{document}
