@@ -1,17 +1,14 @@
 * Trisdan Leyson
-12266 Regent Way 
-PO Box 1033 
-Oregon House, CA 95962
+2343 Kirkham St.
+San Francisco, CA 94122
 (530) 692-9040
 *trisdan.leyson@gmail.com*
 
 * Education
   - *Bachelor of Science, Computer Science. University of California, Davis.*
     - In-progress; expected completion 8/2014.
-    - GPA: 3.27
   - *Associate of Arts, Arts and Humanities. Yuba College.*
     - Completed 2011.
-    - GPA: 3.7
 
 * Selected Projects
   - *Compiler for the Cool Programming Language*
@@ -53,17 +50,13 @@ Oregon House, CA 95962
   - *Reason for leaving*: Left to become full-time student at UC Davis.
 
 * Skills
-  - Most experience with Python, Java, C++.
-  - Some experience with Clojure, C, Ruby, Javascript.
-  - Working knowledge of HTML, CSS.
-  - Basic knowledge of Git and GitHub.
+  - Python (3 years), C++ (3 years), Java (3 years), Clojure (6 months)
   - Proficient writer; maintain a technical blog, /The Poetry of Computer
     Science/ ([[http://porgionesanke.wordpress.com]]).
-  - Native English speaker; some knowledge of the Spanish and Japanese languages.
+  - Native English speaker; basic fluency in Spanish; novice in Japanese.
 
 * Additional Activities
-  - Linguistics, especially typology.
-  - Mathematics and statistics, especially those used in machine learning and natural 
-    language processing.
+  - Linguistics, especially typology; longtime hobby.
+  - Mathematics and statistics; recent hobby.
   - Writing stories, articles, and essays.
   - Reading classical literature, history, philosophy, and popular science.
