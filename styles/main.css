@@ -1,0 +1,18 @@
+#container {
+  position: relative;
+}
+
+
+#nav-container {
+  background-color: #abcdef;
+  position: absolute;
+  left: 0px;
+  width: 300px;
+}
+
+#front {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 685px;
+}
