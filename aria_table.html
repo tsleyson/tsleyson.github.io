@@ -2,6 +2,19 @@
 <head>
   <title>Aria manga/anime correspondence table</title>
   <meta charset="UTF-8">
+  <script src="../../jquery.js"></script>
+  <script src="key_functions.js"></script>
+  <script src="sort_table.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('#sort_anime').click(function() {
+              sorter.sortBy('correspondence', 'anime')
+       });
+      $('#sort_manga').click(function() {
+              sorter.sortBy('correspondence', 'manga');
+      });
+    });
+  </script>
   <style type="text/css">
     body {
          background-image: url("c5887467b417b973e6a46417d70c38ca.jpg");
@@ -34,21 +47,30 @@
   </style>
 </head>
 <body>
+  <!-- For testing, don't have loads from network.
   <a href="http://hqwall.net/eng/wallpaper/ alicia florence amano kozue aria aria pokoteng mizunashi akari 14-139462.html" target=_blank>
     <img
-src="http://hq-wall.net/i/thumb/13/94/_alicia_florence_amano_kozue_aria_aria_pokoteng_mizunashi_akari_14.jpg" border=0></a>
+src="http://hq-wall.net/i/thumb/13/94/_alicia_florence_amano_kozue_aria_aria_pokoteng_mizunashi_akari_14.jpg" border=0></a>-->
   <header>
   <h1>Aria Manga/Anime Chapter Correspondence</h1>
   </header>
   <hr />
-  <table>
+  <table id="correspondence">
+  <thead>
   <tr id="labels">
-    <td class="manga_series">Manga Series</td>
+    <td class="manga_series">Manga Series
+      <a id="sort_manga" label="sort"><img src="down.png" width="10" height="10"/></a>
+    </td>
     <td class="chapter_name">Chapter</td>
-    <td class="anime_series">Anime Series</td>
+    <td class="anime_series">Anime Series
+      <!--<button id="cor_button">Sort by</button>-->
+      <a id="sort_anime"><img src="down.png" width="10" height="10"/></a>
+    </td>
     <td class="anime_episode">Episode</td>
     <td class="notes">Notes</td>
   </tr>
+  </thead>
+  <tbody>
   <tr>
     <td class="manga_series">Aqua</td>
     <td class="chapter_name">Navigation 03: The City Submerged</td>
@@ -101,7 +123,7 @@ src="http://hq-wall.net/i/thumb/13/94/_alicia_florence_amano_kozue_aria_aria_pok
     <td class="manga_series">Aqua</td>
     <td class="chapter_name">Navigation 09: Enter the Hero!</td>
     <td class="anime_series">Aria the Animation</td>
-    <td class="anime_episode">Episode 8 (first
+    <td class="anime_episode">Episode 8 (second
       half): That Cool Hero&hellip;</td>
     <td class="notes">
       The episode is split into two halves with independent names;
@@ -201,8 +223,12 @@ src="http://hq-wall.net/i/thumb/13/94/_alicia_florence_amano_kozue_aria_aria_pok
     <td class="manga_series">Aria</td>
     <td class="chapter_name">Navigation 13: The Town Treasure</td>
     <td class="anime_series">Aria the Natural</td>
-    <td class="anime_episode">Episode 2: Looking for That Treasure&hellip;</td>
-    <td class="notes"></td>
+    <td class="anime_episode">Episode 2: Searching for That Treasure&hellip;</td>
+    <td class="notes">
+      The main plot of Episode 2 comes from Navigation 13, but Episode 2
+      also contains Navigation 25, when Akari meets the owner of
+      Caff&egrave; Florian, as a subplot.
+    </td>
   </tr>
   <tr>
     <td class="manga_series">Aria</td>
@@ -271,7 +297,10 @@ src="http://hq-wall.net/i/thumb/13/94/_alicia_florence_amano_kozue_aria_aria_pok
     <td class="chapter_name">Navigation 22: Canzone</td>
     <td class="anime_series">Aria the Animation</td>
     <td class="anime_episode">Episode 6: That Which You Want to Protect&hellip;</td>
-    <td class="notes"></td>
+    <td class="notes">
+      Navigations 22 and 29 of Aria were merged into Aria the Animation
+      Episode 6.
+    </td>
   </tr>
   <tr>
     <td class="manga_series">Aria</td>
@@ -399,7 +428,7 @@ src="http://hq-wall.net/i/thumb/13/94/_alicia_florence_amano_kozue_aria_aria_pok
     <td class="manga_series">Aria</td>
     <td class="chapter_name">Navigation 35: Hair, Hairpins, and Me</td>
     <td class="anime_series">Aria the Natural</td>
-    <td class="anime_episode">Episode 19.5: That Young Girl's Hear&hellip;</td>
+    <td class="anime_episode">Episode 19.5: That Young Girl's Heart&hellip;</td>
     <td class="notes">
       Second half of Episode 19; the first half adapts Aqua Special
   Navigation (Vol. 2).
@@ -601,6 +630,7 @@ src="http://hq-wall.net/i/thumb/13/94/_alicia_florence_amano_kozue_aria_aria_pok
       Navigations 59 and 60 merged.
     </td>
   </tr>
+  </tbody>
 </table>
   <hr />
   <header>
@@ -611,7 +641,7 @@ src="http://hq-wall.net/i/thumb/13/94/_alicia_florence_amano_kozue_aria_aria_pok
     create an anime episode, those chapters do not appear here.
   </p>
   </header>
-<table>
+<table id="manga_only">
   <tr>
     <td class="manga_series">Aqua</td>
     <td class="chapter_name">Navigation 01: The Water Planet</td>
@@ -718,7 +748,7 @@ src="http://hq-wall.net/i/thumb/13/94/_alicia_florence_amano_kozue_aria_aria_pok
   </tr>
   <tr>
     <td class="anime_series">Aria</td>
-    <td class="episode_name">Navigation 49: The Four Seasons</td>
+    <td class="chapter_name">Navigation 49: The Four Seasons</td>
     <td class="notes"></td>
   </tr>
   <tr>
@@ -750,7 +780,7 @@ src="http://hq-wall.net/i/thumb/13/94/_alicia_florence_amano_kozue_aria_aria_pok
     in the original manga are included in this table.
   </p>
 </header>
-<table>
+<table id="anime-only">
   <tr>
     <td class="anime_series">Aria the Animation</td>
     <td class="episode_name">Episode 1: That Wonderful Miracle&hellip;</td>
