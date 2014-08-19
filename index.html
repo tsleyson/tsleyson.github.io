@@ -3,14 +3,31 @@
   <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="styles/main.css" />
+    <link rel="stylesheet" type="text/css" href="styles/menu.css" />
+    <style type="text/css">
+    </style>
+    <script src="scripts/jquery-1.11.1.js"></script>
+    <script src="scripts/menu.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+          $('#main-nav .nested-nav')
+              .hide()
+              .click(function(event) {
+                  event.stopPropagation();
+              });
+          $('.dropdown').hover(function() {
+              $(this).find('.nested-nav').slideToggle();
+          });
+      }); 
+    </script>
     <title>Trisdan Leyson's GitHub Pages Site</title>
   </head>
   <body>
     <div id="container">
     <aside class="nav-container">
-      <nav class="main-nav">
+      <nav id="main-nav">
         <ul class="nav-links">
-          <li>
+          <li class="dropdown">
             <a href="resume/resume.html">My resume</a>
             <ul class="nested-nav">
               <li><a href="resume/resume.pdf">In PDF</a></li>
@@ -18,8 +35,8 @@
               <li><a href="resume/resume.org">In Emacs Org (plain text)</a></li>
             </ul>
           </li>
-          <li>
-            <a href="WLDC-email-forward/Tutorial.html">
+          <li class="dropdown">
+            <a href="WLDC-email-forward/index.html">
               Yuba College Email forwarding tutorial
             </a>
             <ul class="nested-nav">
@@ -28,7 +45,7 @@
               </a></li>
             </ul>
           </li>
-          <li>
+          <li class="dropdown">
             <a href=#>
               My books
             </a>
@@ -39,12 +56,18 @@
               <li><a href=#>Elf Balm</a></li>
             </ul>
           </li>
+          <li class="dropdown">
+            <a href="#">Miscellaneous</a>
+            <ul class="nested-nav">
+              <li><a href="aria_table.html">Aria Correspondence Table</a>
+              </li>
+            </ul>
         </ul>
       </nav>
     </aside>
     <section id="front">
-      <h1>Trisdan Leyson's Homepage</h1>
       <aside>
+        <h1>Trisdan Leyson's Homepage</h1>
         <p>
           This page uses HTML5 and CSS3. If you have trouble viewing
           it, try upgrading your browser, or switch to 

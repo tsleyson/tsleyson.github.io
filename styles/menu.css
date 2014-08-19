@@ -1,0 +1,40 @@
+#main-nav .nav-links {
+    width: 200px;
+}
+#main-nav:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    min-width: 200px;
+    background-color: grey;
+}
+ul.nav-links {
+    float: left;
+    background-color: #617d6c;
+/*background-color: grey;*/
+}
+ul.nav-links li {
+    float: left;
+    border: 1px black solid;
+    min-width: 200px;
+}
+ul.nested-nav {
+    position: absolute;
+    display: none;
+    background-color: #89b098;
+}
+
+ul.nested-nav li {
+    clear: both;
+}
+
+#main-nav a, #main-nav a:active, #main-nav a:visited {
+    display: block;
+    padding: 10px;
+    color: #cbf5ff; 
+}
