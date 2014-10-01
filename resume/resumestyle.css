@@ -19,4 +19,6 @@ div.textbody {
 body {
    /* text-align: center; */
     background-color: #e4edf4; /* tan #fff0c4; */
+    background-image: url("../styles/cool_text_background.png");
+    font-family: book antiqua, constantia, times new roman, serif;
 }

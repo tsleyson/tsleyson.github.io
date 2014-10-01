@@ -11,30 +11,33 @@ ul {
     padding: 0;
     list-style-type: none;
     min-width: 200px;
-    background-color: grey;
+    background-color: transparent;
 }
 ul.nav-links {
     float: left;
-    background-color: #617d6c;
+    background-color: transparent;
 /*background-color: grey;*/
 }
 ul.nav-links li {
     float: left;
-    border: 1px black solid;
+    border: 1px groove #9a9a9a;
+    border-radius: 15px;
     min-width: 200px;
+    background-image: url("cool_text_background.png");
 }
 ul.nested-nav {
     position: absolute;
     display: none;
-    background-color: #89b098;
+    background-color: transparent; /*#89b098;*/
 }
 
 ul.nested-nav li {
     clear: both;
+    background-image: url("warm_text_background.png");
 }
 
 #main-nav a, #main-nav a:active, #main-nav a:visited {
     display: block;
     padding: 10px;
-    color: #cbf5ff; 
+    color: black; /*#cbf5ff; */
 }

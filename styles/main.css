@@ -1,5 +1,6 @@
 body {
-    background: #04ba56;
+    background: #04ba56 url("dark_cool_text_background.png");
+    font-family: book antiqua, constantia, times new roman, serif;
 }
 
 #container {
@@ -8,11 +9,12 @@ body {
 
 
 #nav-container {
-    background-color: #abcdef;
+    background-color: transparent;
     position: absolute;
     /* left: 0px; */
     width: 200px;
     margin: 0 auto;
+    border: 
 }
 
 #front {
@@ -23,12 +25,13 @@ body {
     padding: 10px 10px;
     width: 750px;
     background-color: #cbf5ff;
-    border: thin inset white;
+    background-image: url("cool_text_background.png");
+    border: thin inset #9a9a9a;
+    border-right-style: outset;
+    border-radius: 10px 10px 10px 10px;
 }
 
 #front aside {
     width: 700px;
     margin: 0 auto;
 }
-background-color: #617d6c;
-background-color: #89b098;
