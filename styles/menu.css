@@ -53,7 +53,7 @@ ul.nested-nav li {
     font-weight: bold;
     text-align: center;
     text-shadow: 1px 1px 1px #999999;
-    background-image: url("dark_cool_text_background.png");
+    background-image: url("dark_heavy_texture_background.png");
     border-radius: 8px;
 }
 
@@ -80,7 +80,7 @@ ul.nested-nav li {
 
 /* Controls all styling on dropdown menu cells. */
 #main-nav li ul li {
-    background-image: url("dark_cool_text_background.png");
+    background-image: url("dark_heavy_texture_background.png");
     border-radius: 8px 8px 8px 8px;
     text-align: center;
     /* Very important! Make them fill the container. */
@@ -97,5 +97,5 @@ ul.nested-nav li {
 }
 
 #main-nav li:hover {
-    background-image: url("warm_text_background.png");
+    background-image: url("warm_heavy_texture_background.png");
 }
