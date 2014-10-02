@@ -1,5 +1,6 @@
 body {
-    background: #04ba56 url("dark_cool_text_background.png");
+    background-image: url("dark_cool_text_background.png");
+    background-repeat: repeat;
     font-family: book antiqua, constantia, times new roman, serif;
 }
 
@@ -26,13 +27,21 @@ body {
     margin-right: 5em;
     width: 750px;
     /*background-color: #cbf5ff;*/
-    background: white url("cool_text_background.png") repeat;
+    background-image: url("cool_text_background.png");
+    background-repeat: repeat;
     border: thin inset #9a9a9a;
     border-right-style: outset;
     border-radius: 10px 10px 10px 10px;
+    display: block;
 }
 
 #front aside {
     width: 100%;
     margin: 0 auto;
+}
+
+/* center all images. */
+#front img {
+    margin: 0 auto;
+    display: block;
 }
