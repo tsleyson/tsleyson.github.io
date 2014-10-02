@@ -19,19 +19,20 @@ body {
 
 #front {
     position: absolute;
-    float: right;
     right: 0px;
     top: 0px;
     padding: 10px 10px;
+    margin-left: 8em;
+    margin-right: 5em;
     width: 750px;
-    background-color: #cbf5ff;
-    background-image: url("cool_text_background.png");
+    /*background-color: #cbf5ff;*/
+    background: white url("cool_text_background.png") repeat;
     border: thin inset #9a9a9a;
     border-right-style: outset;
     border-radius: 10px 10px 10px 10px;
 }
 
 #front aside {
-    width: 700px;
+    width: 100%;
     margin: 0 auto;
 }

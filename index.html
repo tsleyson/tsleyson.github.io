@@ -9,6 +9,7 @@
     <script src="scripts/jquery-1.11.1.js"></script>
     <script src="scripts/menu.js"></script>
     <script type="text/javascript">
+      /* Replaced with pure CSS.
       $(document).ready(function () {
           $('#main-nav .nested-nav')
               .hide()
@@ -18,13 +19,14 @@
           $('.dropdown').hover(function() {
               $(this).find('.nested-nav').slideToggle();
           });
-      }); 
+      }); */
     </script>
     <title>Trisdan Leyson's GitHub Pages Site</title>
   </head>
   <body>
     <div id="container">
-    <aside class="nav-container">
+    <section id="front">
+          <aside class="nav-container">
       <nav id="main-nav">
         <ul class="nav-links">
           <li class="dropdown">
@@ -65,7 +67,6 @@
         </ul>
       </nav>
     </aside>
-    <section id="front">
       <aside>
         <img src="my_logo.png" />
         <h1>Trisdan Leyson's Homepage</h1>
