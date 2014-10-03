@@ -1,13 +1,15 @@
 body {
-    background-image: url("dark_heavy_texture_background.png");
+    background-image: url("warm_heavy_texture_background.png");
     background-repeat: repeat;
     font-family: book antiqua, constantia, times new roman, serif;
 }
 
 #container {
-    position: relative;
+    position: absolute;
     width: 80%;
     margin: 10px auto 0 0;
+    top: 0;
+    right: 13%;
 }
 
 
@@ -17,7 +19,6 @@ body {
     /* left: 0px; */
     width: 200px;
     margin: 0 auto;
-    border: 
 }
 
 #front {
@@ -46,4 +47,39 @@ body {
 #front img {
     margin: 0 auto;
     display: block;
+}
+
+aside#quick_links {
+    background-image: url("dark_heavy_texture_background.png");
+    border-radius: 8px 8px 8px 8px;
+    padding: 0px 4px 0px 4px;
+    position: absolute;
+    top: 4%;
+}
+
+#quick_links {
+    position: absolute;
+    top: 0;
+    left: 2%;
+    padding: 2px 0 0 2px;
+    font-family: book antiqua, constantia, times new roman, serif;
+}
+
+#quick_links ul {
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 5px;
+    list-style-type: none;
+}
+
+#quick_links ul li {
+    padding: 5px 2px 5px 2px;
+}
+
+#quick_links ul li a {
+    font-size: 15px;
+    text-align: center;
+    text-color: black;
+    text-shadow: 2px 1px 1px #eaeaea; 
 }
