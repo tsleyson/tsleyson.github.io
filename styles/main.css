@@ -9,7 +9,7 @@ body {
     width: 80%;
     margin: 10px auto 0 0;
     top: 0;
-    right: 13%;
+    right: 20px;
 }
 
 
@@ -22,13 +22,12 @@ body {
 }
 
 #front {
-    position: absolute;/*
-    right: 0px;*/
-    left: 50%;
+    position: absolute;
+    right: 0;
     top: 0px;
     padding: 10px 10px;
-    margin: 0 0 0 -40%;
-    width: 100%;
+    margin: 0 0 0 0;
+    width: 80%%;
     /*background-color: #cbf5ff;*/
     background-image: url("heavy_texture_background.png");
     background-repeat: repeat;
@@ -54,14 +53,10 @@ aside#quick_links {
     border-radius: 8px 8px 8px 8px;
     padding: 0px 4px 0px 4px;
     position: absolute;
-    top: 4%;
-}
-
-#quick_links {
+    top: 25px;
     position: absolute;
-    top: 0;
     left: 2%;
-    padding: 2px 0 0 2px;
+    padding: 2px 0 0 5px;
     font-family: book antiqua, constantia, times new roman, serif;
 }
 
@@ -69,7 +64,7 @@ aside#quick_links {
     position: relative;
     top: 0;
     left: 0;
-    padding: 5px;
+    padding: 15px;
     list-style-type: none;
 }
 
