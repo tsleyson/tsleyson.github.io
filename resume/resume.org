@@ -1,8 +1,9 @@
 * Trisdan Leyson
-2343 Kirkham St.
-San Francisco, CA 94122
-(530) 692-9040
-*trisdan.leyson@gmail.com*
+  12266 Regent Way
+  P.O. Box 1033
+  Oregon House, CA 95962
+  (530) 692-9040
+  *trisdan.leyson@gmail.com*
 
 * Education
   - *Bachelor of Science, Computer Science. University of California, Davis.*

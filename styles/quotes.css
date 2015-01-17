@@ -1,0 +1,40 @@
+section {
+    margin: 0 20px 0 20px;
+}
+
+blockquote {
+    text-align: justify;
+    width: 600px;
+    padding-bottom: 5px;
+}
+
+header {
+        font-style: italic;
+}
+
+header#main-head {
+    width: 600px;
+   /* background-color: #f0f0f0; */
+/*    padding-bottom: 40px; */
+    text-align: justify;
+    margin: 0 auto;
+    padding: 5px 10px 40px 10px;
+}
+
+body {
+    background-image: url("blue_background.png");
+}
+
+#content {
+    position: absolute;
+    margin: 0 auto;
+    left: 100px;
+    background-image: url("blue_fuzzy_borders.png");
+    padding: 20px;
+    background-repeat: repeat-y;
+    background-size: 100%;
+}
+
+section hr {
+    width: 600px;
+}
