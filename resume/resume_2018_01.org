@@ -1,0 +1,54 @@
+#+TITLE: 
+#+OPTIONS: toc:nil
+#+OPTIONS: num:nil
+* Trisdan Leyson
+1110 Cypress Ave.\\
+Apt. 204\\
+San Mateo, CA 94401\\
+(415) 672-9478\\
+*trisdan.leyson@gmail.com*\\
+
+* Employment
+** Software Engineer at TalentBin (Sep 2015 – )
+  - Sole developer on an internal Java application in Play Framework 2.2; front end used JQuery, Ractive, Bootstrap; MySQL database.
+  - Worked with product team and internal customers to conceive and deliver features.
+  - Navigated and improved legacy code.
+  - From Jul 2017: transferred to platform team. Worked on identity resolution system for social profiles in Python and Pandas, plus various other data processing and data storage systems.
+  - Worked on APIs, some for the TalentBin web application and some for other teams inside the company.
+  - Managed and mentored summer intern projects.
+  - Did tech talks for the engineering team.
+** English Tutor at Yuba College Writing and Language Development Center (Jan 2009 – May 2011)
+  - Worked closely with students to refine language, analytical, and rhetorical skills.
+  - Interpreted instructor comments and assignments and communicated this understanding to students.
+  - Kept careful records of activities within the center using the AccuTrack and TutorTrac systems.
+  - Modeled good student behavior.
+
+* Education
+** B.S. in Computer Science at University of California, Davis (Jul 2011 – Dec 2014)
+General course; emphasis on programming languages, algorithms, and discrete math. Coursework equivalent to a minor in math.
+** A.A. in Arts and Humanities, Yuba College (Jan 2007 – May 2011)
+General education.
+
+* Selected Projects
+  - *Robot arm control system*
+    - http://github.com/tsleyson/JointMove.
+    - *Skills*: C++, low-level programming, object-oriented design.
+  - *Sound Change Modeler*
+    - https://github.com/tsleyson/PySounds2.
+    - *Skills*: Python, regular expressions, scripting, GUIs (TKinter), Unicode.
+  - *Document preparer for Amazon Kindle publishing*
+    - https://github.com/tsleyson/kindle_pub_formatter.
+    - *Skills*: Clojure, JSON, HTML, Cascading Style Sheets, Unicode.
+  - *Population simulator*
+    - [[https://github.com/tsleyson/MadokaPopulation]]
+    - *Skills*: Clojure, functional programming, GUIs, Quil
+
+* Skills
+** Programming
+  - Python, Java, Clojure, Javascript
+  - HTML, CSS
+  - Play Framework 2.2, Spring, Hibernate
+  - JQuery, Ractive.js, Bootstrap
+  - Pandas
+** Other
+  - Writing; maintain a technical blog, The Poetry of Computer Science ([[http://porgionesanke.wordpress.com]]).
