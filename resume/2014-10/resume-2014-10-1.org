@@ -1,0 +1,63 @@
+* Trisdan Leyson
+  12266 Regent Way
+  P.O. Box 1033
+  Oregon House, CA 95962
+  (530) 692-9040
+  *trisdan.leyson@gmail.com*
+
+* Education
+  - *Bachelor of Science, Computer Science. University of California, Davis.*
+    - Completed 2014.
+  - *Associate of Arts, Arts and Humanities. Yuba College.*
+    - Completed 2011.
+
+* Selected Projects
+  - *Compiler for the Cool Programming Language*
+    - *Tools*: C++, Flex, make, SPIM and MIPS.
+    - *Skills*: Regular expressions, object-oriented design, type systems.
+  - *Robot arm control system*
+    - Code at http://github.com/tsleyson/JointMove.
+    - *Tools*: C++.
+    - *Skills*: Low-level programming, object-oriented design.
+  - *Sound Change Modeler*
+    - Code at [[https://github.com/tsleyson/PySounds2]].
+    - *Tools*: Python.
+    - *Skills*: Regular expressions, scripting, GUIs (TKinter), Unicode.
+  - *Document preparer for Amazon Kindle publishing*
+    - Code at [[https://github.com/tsleyson/kindle_pub_formatter]].
+    - *Tools*: Clojure, HTML, Emacs Lisp, JSON.
+    - *Skills*: HTML, Cascading Style Sheets, Unicode.
+
+* Employment History
+** January 2014 - 
+  - *Yuba College Writing and Language Development Center.*
+  - *Position*: English and ESL Tutor
+  - *Duties*:
+    - Worked closely with students to refine language, analytical, and 
+      rhetorical skills.
+    - Interpreted instructor comments and assignments and communicated
+      this understanding to students.
+    - Kept careful records of activities within the center using the
+      AccuTrack and TutorTrac systems.
+    - Modeled good student behavior.
+    - Created a tutorial for students to learn to use the 
+      account-linking features of their Yuba College campus email.
+      (Available at [[tsleyson.github.io/WLDC-email-forward/index.html]].)
+  - *Reason for leaving*: Time-limited position.
+** January 2009 - May 2011
+  - *Yuba College Writing and Language Development Center*
+  - *Position*: English and ESL Tutor
+  - *Duties*: See above.
+  - *Reason for leaving*: Left to become full-time student at UC Davis.
+
+* Skills
+  - Python (3 years), C++ (3 years), Java (3 years), Clojure (6 months)
+  - Proficient writer; maintain a technical blog, /The Poetry of Computer
+    Science/ ([[http://porgionesanke.wordpress.com]]).
+  - Native English speaker; basic fluency in Spanish; novice in Japanese.
+
+* Additional Activities
+  - Linguistics, especially typology; longtime hobby.
+  - Mathematics and statistics; recent hobby.
+  - Writing stories, articles, and essays.
+  - Reading classical literature, history, philosophy, and popular science.

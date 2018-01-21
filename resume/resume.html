@@ -1,64 +1,92 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-               "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<title>Trisdan Leyson Resume</title>
+<title></title>
+<!-- 2018-01-21 Sun 14:56 -->
+<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta  name="generator" content="Org-mode" />
+<meta  name="author" content="Trisdan Leyson" />
 <link rel="stylesheet" type="text/css" href="resumestyle.css" />
-<meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1"/>
-<meta name="title" content="resume"/>
-<meta name="generator" content="Org-mode"/>
-<meta name="generated" content="2014-07-07T15:44-0700"/>
-<meta name="author" content=""/>
-<meta name="description" content=""/>
-<meta name="keywords" content=""/>
 <style type="text/css">
  <!--/*--><![CDATA[/*><!--*/
-  html { font-family: Times, serif; font-size: 12pt; }
   .title  { text-align: center; }
-  .todo   { color: red; }
+  .todo   { font-family: monospace; color: red; }
   .done   { color: green; }
-  .tag    { background-color: #add8e6; font-weight:normal }
-  .target { }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
   .timestamp { color: #bebebe; }
   .timestamp-kwd { color: #5f9ea0; }
-  .right  {margin-left:auto; margin-right:0px;  text-align:right;}
-  .left   {margin-left:0px;  margin-right:auto; text-align:left;}
-  .center {margin-left:auto; margin-right:auto; text-align:center;}
-  p.verse { margin-left: 3% }
+  .right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
   pre {
-	border: 1pt solid #AEBDCC;
-	background-color: #F3F5F7;
-	padding: 5pt;
-	font-family: courier, monospace;
-        font-size: 90%;
-        overflow:auto;
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
   }
-  table { border-collapse: collapse; }
-  td, th { vertical-align: top;  }
-  th.right  { text-align:center;  }
-  th.left   { text-align:center;   }
-  th.center { text-align:center; }
-  td.right  { text-align:right;  }
-  td.left   { text-align:left;   }
-  td.center { text-align:center; }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  pre.src-sh:before    { content: 'sh'; }
+  pre.src-bash:before  { content: 'sh'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-R:before     { content: 'R'; }
+  pre.src-perl:before  { content: 'Perl'; }
+  pre.src-java:before  { content: 'Java'; }
+  pre.src-sql:before   { content: 'SQL'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.right  { text-align: center;  }
+  th.left   { text-align: center;   }
+  th.center { text-align: center; }
+  td.right  { text-align: right;  }
+  td.left   { text-align: left;   }
+  td.center { text-align: center; }
   dt { font-weight: bold; }
-  div.figure { padding: 0.5em; }
-  div.figure p { text-align: center; }
-  div.inlinetask {
-    padding:10px;
-    border:2px solid gray;
-    margin:10px;
+  .footpara:nth-child(2) { display: inline; }
+  .footpara { display: block; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
     background: #ffffcc;
   }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
   textarea { overflow-x: auto; }
-  .linenr { font-size:smaller }
-  .code-highlighted {background-color:#ffff00;}
-  .org-info-js_info-navigation { border-style:none; }
-  #org-info-js_console-label { font-size:10px; font-weight:bold;
-                               white-space:nowrap; }
-  .org-info-js_search-highlight {background-color:#ffff00; color:#000000;
-                                 font-weight:bold; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
   /*]]>*/-->
 </style>
 <script type="text/javascript">
@@ -107,256 +135,169 @@ for the JavaScript code in this tag.
  }
 /*]]>*///-->
 </script>
-
 </head>
 <body>
-
-<div id="preamble">
-
-</div>
-
 <div id="content">
-<h1 class="title">Trisdan Leyson</h1>
-
-<!--
-<div id="table-of-contents">
-<h2>Table of Contents</h2>
-<div id="text-table-of-contents">
-<ul>
-<li><a href="#sec-1">1 Trisdan Leyson</a></li>
-<li><a href="#sec-2">2 Education</a></li>
-<li><a href="#sec-3">3 Selected Projects</a></li>
-<li><a href="#sec-4">4 Employment History</a>
-<ul>
-<li><a href="#sec-4-1">4.1 January 2014 -</a></li>
-<li><a href="#sec-4-2">4.2 January 2009&ndash;May 2011</a></li>
-</ul>
-</li>
-<li><a href="#sec-5">5 Skills</a></li>
-<li><a href="#sec-6">6 Additional Activities</a></li>
-</ul>
+<h1 class="title"></h1>
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1" class="title">Trisdan Leyson</h2>
+<div class="outline-text-2 title" id="text-1">
+<p>
+1110 Cypress Ave.<br  />
+Apt. 204<br  />
+San Mateo, CA 94401<br  />
+(415) 672-9478<br  />
+<b>trisdan.leyson@gmail.com</b><br  />
+</p>
 </div>
-</div>-->
-
-<div id="outline-container-1" class="outline-2">
-<div class="outline-text-2" id="text-1">
-
-<p>12266 Regent Way</p> 
-<p>PO Box 1033</p>
-<p>Oregon House, CA 95962</p>
-<!-- <p>2343 Kirkham St.</p>
-<p>San Francisco, CA 94122</p> -->
-<p>(530) 692-9040</p>
-<p><b>trisdan.leyson@gmail.com</b></p>
-</div>
-
 </div>
 
 <div class="textbody">
 <p>This document is also available in <a
   href="trisdan-leyson_resume.pdf">PDF</a>, <a
-  href="trisdan-leyson_resume.tex">LaTeX</a>, <a
-  href="resume.doc">Microsoft Word doc</a>, and <a
-  href="resume.org">Emacs Org Mode (plain text)</a> formats. I also
+  href="trisdan-leyson_resume.tex">LaTeX</a>, <a href="resume_2018_01.txt">plain text, and <a
+  href="resume_2018_01.org">Emacs Org Mode</a> formats. I also
   have a <a href="Trisdan_Leyson_writing_sample.pdf">writing
   sample</a> available.</p>
-<div id="outline-container-2" class="outline-2">
-<h2 id="sec-2"><span class="section-number-2">1.</span> Education</h2>
+<div id="outline-container-sec-2" class="outline-2">
+<h2 id="sec-2">Employment</h2>
 <div class="outline-text-2" id="text-2">
-
-<ul>
-<li><b>Bachelor of Science, Computer Science. University of California, Davis.</b>
-<ul>
-<li>Completed December 2014.
+</div><div id="outline-container-sec-2-1" class="outline-3">
+<h3 id="sec-2-1">Software Engineer at TalentBin (Sep 2015 – )</h3>
+<div class="outline-text-3" id="text-2-1">
+<ul class="org-ul">
+<li>Sole developer on an internal Java application in Play Framework 2.2; front end used JQuery, Ractive, Bootstrap; MySQL database.
+</li>
+<li>Worked with product team and internal customers to conceive and deliver features.
+</li>
+<li>Navigated and improved legacy code.
+</li>
+<li>From Jul 2017: transferred to platform team. Worked on identity resolution system for social profiles in Python and Pandas, plus various other data processing and data storage systems.
+</li>
+<li>Worked on APIs, some for the TalentBin web application and some for other teams inside the company.
+</li>
+<li>Managed and mentored summer intern projects.
+</li>
+<li>Did tech talks for the engineering team.
 </li>
 </ul>
-
-</li>
-<li><b>Associate of Arts, Arts and Humanities. Yuba College.</b>
-<ul>
-<li>Completed July 2011.
-</li>
-</ul>
-
-</li>
-</ul>
-
 </div>
-
 </div>
-
-<div id="outline-container-3" class="outline-2">
-<h2 id="sec-3"><span class="section-number-2">2.</span> Selected Projects</h2>
-<div class="outline-text-2" id="text-3">
-
-<ul>
-<li><b>Compiler for the Cool Programming Language</b>
-<ul>
-<li><b>Tools</b>: C++, Flex, make, SPIM and MIPS.
+<div id="outline-container-sec-2-2" class="outline-3">
+<h3 id="sec-2-2">English Tutor at Yuba College Writing and Language Development Center (Jan 2009 – May 2011)</h3>
+<div class="outline-text-3" id="text-2-2">
+<ul class="org-ul">
+<li>Worked closely with students to refine language, analytical, and rhetorical skills.
 </li>
-<li><b>Skills</b>: Regular expressions, object-oriented design, type systems.
+<li>Interpreted instructor comments and assignments and communicated this understanding to students.
 </li>
-</ul>
-
-</li>
-<li><b>Robot arm control system</b>
-<ul>
-<li>Code at <a href="http://github.com/tsleyson/JointMove">http://github.com/tsleyson/JointMove</a>.
-</li>
-<li><b>Tools</b>: C++.
-</li>
-<li><b>Skills</b>: Low-level programming, object-oriented design.
-</li>
-</ul>
-
-</li>
-<li><b>Sound Change Modeler</b>
-<ul>
-<li>Code at <a href="https://github.com/tsleyson/PySounds2">https://github.com/tsleyson/PySounds2</a>.
-</li>
-<li><b>Tools</b>: Python.
-</li>
-<li><b>Skills</b>: Regular expressions, scripting, GUIs (TKinter), Unicode.
-</li>
-</ul>
-
-</li>
-<li><b>Document preparer for Amazon Kindle publishing</b>
-<ul>
-<li>Code at <a href="https://github.com/tsleyson/kindle_pub_formatter">https://github.com/tsleyson/kindle_pub_formatter</a>.
-</li>
-<li><b>Tools</b>: Clojure, HTML, Emacs Lisp, JSON.
-</li>
-<li><b>Skills</b>: HTML, Cascading Style Sheets, Unicode.
-</li>
-</ul>
-
-</li>
-</ul>
-
-
-</div>
-
-</div>
-
-<div id="outline-container-4" class="outline-2">
-<h2 id="sec-4"><span class="section-number-2">3.</span> Employment History</h2>
-<div class="outline-text-2" id="text-4">
-
-
-</div>
-
-<div id="outline-container-4-1" class="outline-3">
-<h3 id="sec-4-1"><span class="section-number-3">3.1</span> January 2014&ndash;May 2014</h3>
-<div class="outline-text-3" id="text-4-1">
-
-<ul>
-<li><b>Yuba College Writing and Language Development Center.</b>
-</li>
-<li><b>Position</b>: English and ESL Tutor
-</li>
-<li><b>Duties</b>:
-<ul>
-<li>Worked closely with students to refine language, analytical, and 
-      rhetorical skills.
-</li>
-<li>Interpreted instructor comments and assignments and communicated
-      this understanding to students.
-</li>
-<li>Kept careful records of activities within the center using the
-      AccuTrack and TutorTrac systems.
+<li>Kept careful records of activities within the center using the AccuTrack and TutorTrac systems.
 </li>
 <li>Modeled good student behavior.
 </li>
-<li>Created a tutorial for students to learn to use the 
-      account-linking features of their Yuba College campus email.
-      (Available at <a href="#tsleyson.github.io-WLDC-email-forward-index.html">tsleyson.github.io/WLDC-email-forward/index.html</a>.)
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-3" class="outline-2">
+<h2 id="sec-3">Education</h2>
+<div class="outline-text-2" id="text-3">
+</div><div id="outline-container-sec-3-1" class="outline-3">
+<h3 id="sec-3-1">B.S. in Computer Science at University of California, Davis (Jul 2011 – Dec 2014)</h3>
+<div class="outline-text-3" id="text-3-1">
+<p>
+General course; emphasis on programming languages, algorithms, and discrete math. Coursework equivalent to a minor in math.
+</p>
+</div>
+</div>
+<div id="outline-container-sec-3-2" class="outline-3">
+<h3 id="sec-3-2">A.A. in Arts and Humanities, Yuba College (Jan 2007 – May 2011)</h3>
+<div class="outline-text-3" id="text-3-2">
+<p>
+General education.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-4" class="outline-2">
+<h2 id="sec-4">Selected Projects</h2>
+<div class="outline-text-2" id="text-4">
+<ul class="org-ul">
+<li><b>Robot arm control system</b>
+<ul class="org-ul">
+<li><a href="http://github.com/tsleyson/JointMove">http://github.com/tsleyson/JointMove</a>.
+</li>
+<li><b>Skills</b>: C++, low-level programming, object-oriented design.
 </li>
 </ul>
-
 </li>
-<li><b>Reason for leaving</b>: Time-limited position.
+<li><b>Sound Change Modeler</b>
+<ul class="org-ul">
+<li><a href="https://github.com/tsleyson/PySounds2">https://github.com/tsleyson/PySounds2</a>.
 </li>
-</ul>
-
-</div>
-
-</div>
-
-<div id="outline-container-4-2" class="outline-3">
-<h3 id="sec-4-2"><span class="section-number-3">3.2</span> January 2009&ndash;May 2011</h3>
-<div class="outline-text-3" id="text-4-2">
-
-<ul>
-<li><b>Yuba College Writing and Language Development Center</b>
-</li>
-<li><b>Position</b>: English and ESL Tutor
-</li>
-<li><b>Duties</b>: See above.
-</li>
-<li><b>Reason for leaving</b>: Left to become full-time student at UC Davis.
+<li><b>Skills</b>: Python, regular expressions, scripting, GUIs (TKinter), Unicode.
 </li>
 </ul>
-
-
+</li>
+<li><b>Document preparer for Amazon Kindle publishing</b>
+<ul class="org-ul">
+<li><a href="https://github.com/tsleyson/kindle_pub_formatter">https://github.com/tsleyson/kindle_pub_formatter</a>.
+</li>
+<li><b>Skills</b>: Clojure, JSON, HTML, Cascading Style Sheets, Unicode.
+</li>
+</ul>
+</li>
+<li><b>Population simulator</b>
+<ul class="org-ul">
+<li><a href="https://github.com/tsleyson/MadokaPopulation">https://github.com/tsleyson/MadokaPopulation</a>
+</li>
+<li><b>Skills</b>: Clojure, functional programming, GUIs, Quil
+</li>
+</ul>
+</li>
+</ul>
 </div>
 </div>
 
-</div>
-
-<div id="outline-container-5" class="outline-2">
-<h2 id="sec-5"><span class="section-number-2">4.</span> Skills</h2>
+<div id="outline-container-sec-5" class="outline-2">
+<h2 id="sec-5">Skills</h2>
 <div class="outline-text-2" id="text-5">
-
-<ul>
-  <!--
-<li>Most experience with Python, Java, C++.
+</div><div id="outline-container-sec-5-1" class="outline-3">
+<h3 id="sec-5-1">Programming</h3>
+<div class="outline-text-3" id="text-5-1">
+<ul class="org-ul">
+<li>Python, Java, Clojure, Javascript
 </li>
-<li>Some experience with Clojure, C, Ruby, Javascript.
+<li>HTML, CSS
 </li>
-<li>Working knowledge of HTML, CSS.
+<li>Play Framework 2.2, Spring, Hibernate
 </li>
-<li>Basic knowledge of Git and GitHub.
+<li>JQuery, Ractive.js, Bootstrap
 </li>
--->
-  <li>Python (3 years), C++ (3 years), Java (2 years), Clojure (1 year)</li>
-<li>Proficient writer; maintain a technical blog, <i>The Poetry of Computer Science</i> (<a href="http://porgionesanke.wordpress.com">http://porgionesanke.wordpress.com</a>).
-</li>
-<li>Native English speaker; basic fluency in Spanish; novice in  Japanese.
+<li>Pandas
 </li>
 </ul>
-
-
 </div>
-
 </div>
-
-<div id="outline-container-6" class="outline-2">
-<h2 id="sec-6"><span class="section-number-2">5.</span> Additional Activities</h2>
-<div class="outline-text-2" id="text-6">
-
-<ul>
-<li>Linguistics, especially typology.
-</li>
-<li>Mathematics and statistics.
-</li>
-<li>Writing stories, articles, and essays.
-</li>
-<li>Reading classical literature, history, philosophy, and popular science.
+<div id="outline-container-sec-5-2" class="outline-3">
+<h3 id="sec-5-2">Other</h3>
+<div class="outline-text-3" id="text-5-2">
+<ul class="org-ul">
+<li>Writing; maintain a technical blog, The Poetry of Computer Science (<a href="http://porgionesanke.wordpress.com">http://porgionesanke.wordpress.com</a>).
 </li>
 </ul>
-
 </div>
 </div>
 </div>
 </div>
-<div id="postamble">
-<p class="date">Date: 2014-10-1</p>
+<div id="postamble" class="status">
 <p class="author">Author: Trisdan Leyson</p>
-<p class="printer-friendly"><a href="trisdan-leyson_resume.pdf">Printer-friendly format: PDF</a></p>
-<!--<p class="creator"><a href="http://orgmode.org">Org</a> version 7.9.3f with <a href="http://www.gnu.org/software/emacs/">Emacs</a> version 24</p>
-<a href="http://validator.w3.org/check?uri=referer">Validate XHTML 1.0</a>-->
-
+<p class="date">Created: 2018-01-21 Sun 14:56</p>
+<p class="creator"><a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.5.1 (<a href="http://orgmode.org">Org</a> mode 8.2.10)</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
 </div>
 </body>
 </html>
