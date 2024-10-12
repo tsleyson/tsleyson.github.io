@@ -1,11 +1,14 @@
 \documentclass{moderncv}
-\moderncvtheme[black]{banking}
+% \moderncvtheme[black]{banking}
+\moderncvtheme[black]{classic}
+\usepackage{fontawesome}
 
 \firstname{Trisdan}
 \familyname{Leyson}
 % \address{2343 Kirkham St}{San Francisco, CA 94122}
 % \address{12266 Regent Way}{P.O. Box 1033}{Oregon House, CA 95962}
-\address{1110 Cypress Avenue}{Apt. 204}{San Mateo, CA 94401}
+%\address{1110 Cypress Avenue}{Apt. 204}{San Mateo, CA 94401}
+\address{218 Millwood Drive}{}{Millbrae, CA 94030}
 \email{trisdan.leyson@gmail.com}
 %\mobile{(831) 332-4706}
 % \phone{(530) 692-9040}
@@ -21,31 +24,36 @@
 \begin{document}
 \makecvtitle
 
-\cvline{\linkedinsocialsymbol}{\href{https://www.linkedin.com/in/trisdan-leyson}{https://www.linkedin.com/in/trisdan-leyson}}
-\cvline{\githubsocialsymbol}{\href{https://www.github.com/tsleyson}{https://www.github.com/tsleyson}}
-\cvline{Stack Overflow CV}{\href{https://stackoverflow.com/cv/tsleyson}{https://stackoverflow.com/cv/tsleyson}}
+\cvline{\faLinkedin}{\href{https://www.linkedin.com/in/trisdan-leyson}{https://www.linkedin.com/in/trisdan-leyson}}
+\cvline{\faGithub}{\href{https://www.github.com/tsleyson}{https://www.github.com/tsleyson}}
+\cvline{\faStackOverflow}{\href{https://stackoverflow.com/cv/tsleyson}{https://stackoverflow.com/cv/tsleyson}}
 \section{Experience}
-\cventry{Sept 2015 -- }{Software Developer}{TalentBin By Monster}{San Francisco, CA}{}{\begin{itemize}
-  \item From Sept 2015 -- June 2017, sole maintainer of internal web application in Java and Play Framework 2.2.
+\cventry{Apr 2018 -- }{Senior Software Engineer}{Brightloom}{San Francisco, CA}{}{\begin{itemize}
+  \item Maintained Ruby on Rails API that receives customer orders from mobile and kiosk applications and sends them to kitchen for fulfillment.
+  \item Implemented REST API integration test suite to detect severe defects after code deployments, using Tavern, which is built on PyTest. Introduced to the team through talks and demos, created documentation and wrote tickets so other engineers could also contribute. The test suite is now used for testing release candidates of multiple systems and has caught several critical bugs in pre-release versions.
+  \item Promoted to Senior Software Engineer in Jan. 2019.
+\end{itemize}}
+\cventry{Sep 2015 -- Mar 2018}{Software Developer}{TalentBin By Monster}{San Francisco, CA}{}{\begin{itemize}
+  \item From Sept 2015 -- June 2017, sole maintainer of internal web application in Java and Play Framework 2.2, using MySQL as the data store. 
   \item Worked with product team and internal customers to develop and deliver features.
-  \item From July 2017, member of Platform team. Worked on identity resolution system for social profiles, using Python and Pandas.
+  \item From July 2017, member of Platform team. Worked on proof of concept identity resolution system for social profiles, using Python and Pandas, that brought expected time to reprocess all data down to two weeks, from three months on existing system.
   \item Supervised summer intern project
   \item Delivered tech talks for the team.
 \end{itemize}}
-\cventry{Jan 2009 -- May 2011}{English Tutor}{Yuba College Writing and Language Development Center}{Marysville, CA}{}{Assisted students, one-on-one or in small groups, with development of language and writing skills, including grammar, punctuation, word-use, rhetoric, and English as a Foreign Language.}
+\cventry{Jan 2009 -- May 2011}{English Tutor}{Yuba College Writing and Language Development Center}{Marysville, CA}{}{Assisted students, one-on-one or in small groups, with development of language and writing skills, including grammar, punctuation, word use, rhetoric, and English as a Foreign Language.}
 
 \section{Education}
-\cventry{Jul. 2011 - Dec. 2014}{Bachelor of Science}{University of California, Davis}{}{}{Computer science; general course.}
+\cventry{}{Bachelor of Science}{University of California, Davis}{}{}{Computer science; general course.}
 % arguments 3 to 6 can be left empty
-\cventry{Jan. 2007 - May 2011}{Associate of Arts}{Yuba College}{}{}{General education, Arts and Humanities.}
+\cventry{}{Associate of Arts}{Yuba College}{}{}{General education, Arts and Humanities.}
 
-\section{Projects}
+%% \section{Projects}
 
-\cvline{Robot arm control system}{A reimplementation of some older procedural code with an object-oriented interface and better design and code quality. \href{http://github.com/tsleyson/JointMove}{http://github.com/tsleyson/JointMove}.}
+%% \cvline{Robot arm control system}{A reimplementation of some older procedural code with an object-oriented interface and better design and code quality. \href{http://github.com/tsleyson/JointMove}{http://github.com/tsleyson/JointMove}.}
 
-\cvline{Sound change applier}{For hobby language creation. \href{http://github.com/tsleyson/PySounds2}{http://github.com/tsleyson/PySounds2}.}
+%% \cvline{Sound change applier}{For hobby language creation. \href{http://github.com/tsleyson/PySounds2}{http://github.com/tsleyson/PySounds2}.}
 
-\cvline{Population growth simulation}{\href{https://github.com/tsleyson/MadokaPopulation}{https://github.com/tsleyson/MadokaPopulation}.}
+%% \cvline{Population growth simulation}{\href{https://github.com/tsleyson/MadokaPopulation}{https://github.com/tsleyson/MadokaPopulation}.}
 
 %\cvline{Javascript}{Competitor for the site \href{http://fruitbots.org}{fruitbots.org}. Uses core Javascript, implements Floyd-Warshall algorithm for all-pairs shortest path. Code at \href{http://github.com/tsleyson/js-fruitbot}{http://github.com/tsleyson/js-fruitbot}.}
 
@@ -60,13 +68,13 @@
 % \cvlanguage{English}{Native speaker}{}
 % \cvlanguage{Spanish}{Basic fluency}{}
 % \cvlanguage{Japanese}{Second-year university level}{}
-\begin{itemize}
-\item Python, Pandas, some knowledge of Django and Flask.
-\item Java (6 and 8), Play Framework, Spring, Hibernate
-\item Clojure, Functional Programming
-\item JavaScript, JQuery, Ractive
-\item HTML5, Bootstrap 3
-\item MySQL
-\item Writing. Maintain a technical blog at \href{http://porgionesanke.wordpress.com}{http://porgionesanke.wordpress.com}.
-\end{itemize}
+%% \cvlistitem{Python, Pandas}
+%% \cvlistitem{Java, Play Framework, Spring, Hibernate}
+%% \cvlistitem{Clojure, Functional Programming}
+%% \cvlistitem{Ruby, Ruby on Rails}
+%% \cvlistitem{JavaScript, JQuery, Ractive}
+%% \cvlistitem{HTML5, Bootstrap 3}
+\cvlistitem{Java, Python, Clojure, Ruby}
+\cvlistitem{MySQL, PostgreSQL}
+\cvlistitem{Writing. Technical blog at \href{http://porgionesanke.wordpress.com}{http://porgionesanke.wordpress.com}.}
 \end{document}
